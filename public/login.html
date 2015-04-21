@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Contacts</title>
+		<base href="/">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<style>
+			body {
+				padding-top: 50px;
+				padding-bottom: 20px;
+			}
+		</style>
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<div class="container">
+			<div class="page-header">
+				<h1>Contacts</h1>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="col-sm-6">
+						<form action="/login" class="form-horizontal" method="POST">
+							<h2>Log In</h2>
+							<div class="row form-group">
+								<label for="username" class="control-label col-sm-2">Username</label>
+								<div class="col-sm-8">
+									<input type="text" name="username" class="form-control" />
+								</div>
+							</div>
+							<div class="row form-group">
+								<label for="password" class="control-label col-sm-2">Password</label>
+								<div class="col-sm-8">
+									<input type="password" name="password" class="form-control" />
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button class="btn btn-primary">Log In</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-sm-6">
+						<form action="/register" class="form-horizontal" method="POST">
+							<h2>Sign Up</h2>
+							<div class="row form-group">
+								<label for="username" class="control-label col-sm-2">Username</label>
+								<div class="col-sm-8">
+									<input type="text" name="username" class="form-control" />
+								</div>
+							</div>
+							<div class="row form-group">
+								<label for="password" class="control-label col-sm-2">Password</label>
+								<div class="col-sm-8">
+									<input type="password" name="password" class="form-control" />
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button class="btn btn-primary">Sign Up</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
