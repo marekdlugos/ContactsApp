@@ -5,5 +5,12 @@
   "author": "Marek Dlugos <marek@hostmeinca.com>",
   "scripts": {
     "start": "node server.js"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "bourne": "^0.4.0",
+    "crypto": "0.0.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3"
   }
 }
