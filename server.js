@@ -14,5 +14,5 @@ app
             res.sendFile(__dirname + '/public/main.html');
         }
     })
-    .listen(3000);
-    // .listen(process.env.PORT); // For Heroku Deployment
+    // .listen(3000);
+    .listen(process.env.PORT); // For Heroku Deployment
